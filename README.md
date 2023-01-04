@@ -180,4 +180,11 @@ seletah di hapus</br>
 ### Cari Data
 
 - Berikut dokumentasi untuk hasil program cari data</br>
-![gambar 6](screnshoot/ss_caridata.png)</br>
+![gambar 7](screnshoot/ss_caridata.png)</br>
+
+### Tampilkan Semua Data
+
+- Berikut dokumentasi untuk hasil program tampilkan semua data</br>
+![gambar 8](screnshoot/ss_tampilkan data.png)</br>
+
+# Sekian Progam kali ini Terima kasih 💋
