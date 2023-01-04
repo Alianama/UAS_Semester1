@@ -11,9 +11,10 @@ Kelas: TI.22.B.2</br>
 ## Penjeleasan Program
 
 Untuk membuat Program tersebut pertama buat package yang berisi file seperti dalam ketentuan di atas.</br>
--Pertama saya membuat file daftar_nilai.py yang terletak pada folder model dan berisi beberapa fungsi yaitu tambah_data, ubah_data, hapus_data, dan cari_data
-dan berisi database berupa dictionary</br>
-Berikut Code Program daftar_nilai.py
+
+- Pertama saya membuat file daftar_nilai.py yang terletak pada folder model dan berisi beberapa fungsi yaitu tambah_data, ubah_data, hapus_data, dan cari_data
+  dan berisi database berupa dictionary</br>
+  Berikut Code Program daftar_nilai.py
 
 ```py
 
