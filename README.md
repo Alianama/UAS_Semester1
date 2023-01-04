@@ -176,3 +176,8 @@ seletah di hapus</br>
 
 - Berikut dokumentasi untuk hasil program ubah data</br>
 ![gambar 6](screnshoot/ss_ubahdata.png)</br>
+
+### Cari Data
+
+- Berikut dokumentasi untuk hasil program cari data</br>
+![gambar 6](screnshoot/ss_caridata.png)</br>
