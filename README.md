@@ -6,7 +6,7 @@ Kelas: TI.22.B.2</br>
 
 ## Link Youtube Tutorial Program
 
-https://youtube.com/
+https://youtu.be/_ttvS5ad1r4
 
 ## Ketentuan Perogram
 
