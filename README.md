@@ -155,3 +155,9 @@ while True:
     else:
         print('Masukan Pilihan yang Benar!!')
 ```
+## Hasil Perogram 
+
+### Hasil Program tambah_data
+
+- Berikut dokumentasi untuk tambah data</br>
+![gambar 2](screnshoot/ss_tambahdata.png)</br>
