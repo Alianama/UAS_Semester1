@@ -114,3 +114,44 @@ def cari(nama):
     print(tabulate(Data_cari.values(), headers=[
           "Nama", "NIM", "Tugas", "UTS", "UAS", "AKHIR"], tablefmt="double_grid"))
 ```
+
+### main.py
+
+- Terakhir saya membuat file main.py yang berisi code program untuk menyatukan semua fungsi yang ada di beberapa modul yang telah saya buat sebelumnya dengan mengimport modul dan fungsi yang akan saya pakai ke dalam main.py dan saya membuat perulanagn menggunakan `py while True: ` untuk mebuat perulangan pada pilihan menu yang akan tampil sebagai pilihan user.</br>
+
+Berikut Code program main.py
+
+```py
+from view.input_nilai import masukan_data, cari_hapus, cari_ubah
+from view.view_nilai import tampilkan
+from model.daftar_nilai import cari_data
+
+
+while True:
+    print('\n|================|')
+    print('|  Pilihan Menu  |')
+    print('|================|')
+    print('\n1. Tambah Data')
+    print('2. Hapus Data')
+    print('3. Ubah Data')
+    print('4. Cari Data')
+    print('5. Lihat Semua Data')
+    print('6. Keluar ')
+
+    pilihan = input('\nMasukan Pilihan Menu = ')
+
+    if pilihan == '1':
+        masukan_data()
+    elif pilihan == '2':
+        cari_hapus()
+    elif pilihan == '3':
+        cari_ubah()
+    elif pilihan == '4':
+        cari_data()
+    elif pilihan == '5':
+        tampilkan()
+    elif pilihan == '6':
+        break
+    else:
+        print('Masukan Pilihan yang Benar!!')
+```
