@@ -185,6 +185,6 @@ seletah di hapus</br>
 ### Tampilkan Semua Data
 
 - Berikut dokumentasi untuk hasil program tampilkan semua data</br>
-![gambar 8](screnshoot/ss_tampilkan data.png)</br>
+![gambar 8](screnshoot/ss_tampilkandata.png)</br>
 
 # Sekian Progam kali ini Terima kasih 💋
