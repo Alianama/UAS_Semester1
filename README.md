@@ -21,7 +21,7 @@ Untuk membuat Program tersebut pertama buat package yang berisi file seperti dal
 - Pertama saya membuat file daftar_nilai.py yang terletak pada folder model dan berisi beberapa fungsi yaitu tambah_data, ubah_data, hapus_data, dan cari_data
   dan berisi database berupa dictionary</br>
 
-  Berikut Code Program daftar_nilai.py
+  Berikut Code Program `daftar_nilai.py`
 
 ```py
 
@@ -51,7 +51,7 @@ def cari_data():
 
 - Selanjutnya saya membuat fungsi untuk meminta user memsaukan data / input yang berada pada file input_nilai.py yang berada pada modul view dan input user di gabung dengan fungsi yang sudah saya buat sebelumnya pada daftar_nilai.py untuk memasukan inputan user ke database(dictionary)</br>
 
-Berikut Code Perogram yang berada pada input_nilai.py
+Berikut Code Perogram yang berada pada `input_nilai.py`
 
 ```py
 from model.daftar_nilai import tambah_data, ubah_data, hapus_data
@@ -91,9 +91,9 @@ def cari_ubah():
 
 ### view_nilai.py
 
-- Selanjutnya saya membuat fungsi untuk menampilkan semua data yang ada dan fungsi untuk menampilkan hasil pencarian user dengan menggunakan modul tabulate data untuk mempercantik tabel dan memanggil database(dictionary) yang ada pada modul daftar_nilai.py </br>
+- Selanjutnya saya membuat fungsi untuk menampilkan semua data yang ada dan fungsi untuk menampilkan hasil pencarian user dengan menggunakan modul tabulate data untuk mempercantik tabel dan memanggil database(dictionary) yang ada pada modul `daftar_nilai.py` </br>
 
-Berikut code program view_nilai.py
+Berikut code program `view_nilai.py`
 
 ```py
 from model.daftar_nilai import database
@@ -119,7 +119,7 @@ def cari(nama):
 
 - Terakhir saya membuat file main.py yang berisi code program untuk menyatukan semua fungsi yang ada di beberapa modul yang telah saya buat sebelumnya dengan mengimport modul dan fungsi yang akan saya pakai ke dalam main.py dan saya membuat perulanagn menggunakan `py while True: ` untuk mebuat perulangan pada pilihan menu yang akan tampil sebagai pilihan user.</br>
 
-Berikut Code program main.py
+Berikut Code program `main.py`
 
 ```py
 from view.input_nilai import masukan_data, cari_hapus, cari_ubah
