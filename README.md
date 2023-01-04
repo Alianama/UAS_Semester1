@@ -165,7 +165,7 @@ while True:
 ### Hapus Data
 
 - Berikut dokumentasi untuk hasil program hapus data</br>
-sebelum di hapus
+sebelum di hapus</br>
 ![gambar 3](screnshoot/ss_hapusdata2.png)</br>
 proses hapus data</br>
 ![gambar 4](screnshoot/ss_hapusdata1.png)</br>
