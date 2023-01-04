@@ -157,7 +157,17 @@ while True:
 ```
 ## Hasil Perogram 
 
-### Hasil Program tambah_data
+### Tambah Data
 
-- Berikut dokumentasi untuk tambah data</br>
+- Berikut dokumentasi untuk hasil program tambah data</br>
 ![gambar 2](screnshoot/ss_tambahdata.png)</br>
+
+### Hapus Data
+
+- Berikut dokumentasi untuk hasil program hapus data</br>
+sebelum di hapus
+![gambar 3](screnshoot/ss_hapusdata2.png)</br>
+proses hapus data</br>
+![gambar 4](screnshoot/ss_hapusdata1.png)</br>
+seletah di hapus</br>
+![gambar 5](screnshoot/ss_hapusdata3.png)</br>
