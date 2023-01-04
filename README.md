@@ -171,3 +171,8 @@ proses hapus data</br>
 ![gambar 4](screnshoot/ss_hapusdata1.png)</br>
 seletah di hapus</br>
 ![gambar 5](screnshoot/ss_hapusdata3.png)</br>
+
+### Ubah Data
+
+- Berikut dokumentasi untuk hasil program ubah data</br>
+![gambar 6](screnshoot/ss_ubahdata.png)</br>
