@@ -16,6 +16,8 @@ https://youtube.com/
 
 Untuk membuat Program tersebut pertama buat package yang berisi file seperti dalam ketentuan di atas.</br>
 
+### daftar_nilai.py
+
 - Pertama saya membuat file daftar_nilai.py yang terletak pada folder model dan berisi beberapa fungsi yaitu tambah_data, ubah_data, hapus_data, dan cari_data
   dan berisi database berupa dictionary</br>
 
@@ -44,6 +46,8 @@ def cari_data():
     from view.view_nilai import cari
     cari(input("\nMasukan Nama Yang Ingin dicari = "))
 ```
+
+### input_nilai.py
 
 - Selanjutnya saya membuat fungsi untuk meminta user memsaukan data / input yang berada pada file input_nilai.py yang berada pada modul view dan input user di gabung dengan fungsi yang sudah saya buat sebelumnya pada daftar_nilai.py untuk memasukan inputan user ke database(dictionary)</br>
 
@@ -83,4 +87,30 @@ def cari_ubah():
     uas = int(input("Masukan Nilai UAS = "))
     akhir = float((0.30 * tugas) + (0.35 * uts) + (0.35 * uas))
     tambah_data(nama, nim, tugas, uts, uas, akhir)
+```
+
+### view_nilai.py
+
+- Selanjutnya saya membuat fungsi untuk menampilkan semua data yang ada dan fungsi untuk menampilkan hasil pencarian user dengan menggunakan modul tabulate data untuk mempercantik tabel dan memanggil database(dictionary) yang ada pada modul daftar_nilai.py </br>
+
+Berikut code program view_nilai.py
+
+```py
+from model.daftar_nilai import database
+from tabulate import tabulate
+
+
+def tampilkan():
+    print(tabulate(database.values(), headers=[
+          "Nama", "NIM", "Tugas", "UTS", "UAS", "AKHIR"], tablefmt="double_grid"))
+
+
+def cari(nama):
+    Data_cari = {}
+    for key, value in database.items():
+        if nama in value:
+            Data_cari[key] = value
+
+    print(tabulate(Data_cari.values(), headers=[
+          "Nama", "NIM", "Tugas", "UTS", "UAS", "AKHIR"], tablefmt="double_grid"))
 ```
