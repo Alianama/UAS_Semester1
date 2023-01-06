@@ -122,9 +122,9 @@ def cari(nama):
 Berikut Code program `main.py`
 
 ```py
-from view.input_nilai import masukan_data, cari_hapus, cari_ubah
-from view.view_nilai import tampilkan
-from model.daftar_nilai import cari_data
+import model
+import view
+import os
 
 
 while True:
@@ -141,50 +141,52 @@ while True:
     pilihan = input('\nMasukan Pilihan Menu = ')
 
     if pilihan == '1':
-        masukan_data()
+        view.input_nilai.masukan_data()
     elif pilihan == '2':
-        cari_hapus()
+        view.input_nilai.cari_hapus()
     elif pilihan == '3':
-        cari_ubah()
+        view.input_nilai.cari_ubah()
     elif pilihan == '4':
-        cari_data()
+        model.daftar_nilai.cari_data()
     elif pilihan == '5':
-        tampilkan()
+        view.view_nilai.tampilkan()
     elif pilihan == '6':
         break
     else:
         print('Masukan Pilihan yang Benar!!')
+
 ```
-## Hasil Perogram 
+
+## Hasil Perogram
 
 ### Tambah Data
 
 - Berikut dokumentasi untuk hasil program tambah data</br>
-![gambar 2](screnshoot/ss_tambahdata.png)</br>
+  ![gambar 2](screnshoot/ss_tambahdata.png)</br>
 
 ### Hapus Data
 
 - Berikut dokumentasi untuk hasil program hapus data</br>
-sebelum di hapus</br>
-![gambar 3](screnshoot/ss_hapusdata2.png)</br>
-proses hapus data</br>
-![gambar 4](screnshoot/ss_hapusdata1.png)</br>
-seletah di hapus</br>
-![gambar 5](screnshoot/ss_hapusdata3.png)</br>
+  sebelum di hapus</br>
+  ![gambar 3](screnshoot/ss_hapusdata2.png)</br>
+  proses hapus data</br>
+  ![gambar 4](screnshoot/ss_hapusdata1.png)</br>
+  seletah di hapus</br>
+  ![gambar 5](screnshoot/ss_hapusdata3.png)</br>
 
 ### Ubah Data
 
 - Berikut dokumentasi untuk hasil program ubah data</br>
-![gambar 6](screnshoot/ss_ubahdata.png)</br>
+  ![gambar 6](screnshoot/ss_ubahdata.png)</br>
 
 ### Cari Data
 
 - Berikut dokumentasi untuk hasil program cari data</br>
-![gambar 7](screnshoot/ss_caridata.png)</br>
+  ![gambar 7](screnshoot/ss_caridata.png)</br>
 
 ### Tampilkan Semua Data
 
 - Berikut dokumentasi untuk hasil program tampilkan semua data</br>
-![gambar 8](screnshoot/ss_tampilkandata.png)</br>
+  ![gambar 8](screnshoot/ss_tampilkandata.png)</br>
 
 # Sekian Progam kali ini Terima kasih 💋
