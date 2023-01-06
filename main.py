@@ -1,9 +1,6 @@
-from view.input_nilai import masukan_data, cari_hapus, cari_ubah
-from view.view_nilai import tampilkan
-from model.daftar_nilai import cari_data
-
-
-
+import model
+import view
+import os
 
 
 while True:
@@ -20,34 +17,16 @@ while True:
     pilihan = input('\nMasukan Pilihan Menu = ')
 
     if pilihan == '1':
-        masukan_data()
+        view.input_nilai.masukan_data()
     elif pilihan == '2':
-        cari_hapus()
+        view.input_nilai.cari_hapus()
     elif pilihan == '3':
-        cari_ubah()
+        view.input_nilai.cari_ubah()
     elif pilihan == '4':
-        cari_data()
+        model.daftar_nilai.cari_data()
     elif pilihan == '5':
-        tampilkan()
+        view.view_nilai.tampilkan()
     elif pilihan == '6':
         break
     else:
         print('Masukan Pilihan yang Benar!!')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
