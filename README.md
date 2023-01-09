@@ -10,7 +10,7 @@ https://youtu.be/_ttvS5ad1r4
 
 ## PDF Tutorial Program
 
-![pdf](/PDF%20Tutorial%20UAS-SEMESTER%201.pdf)
+![ PDF  Tutorial ](/PDF%20Tutorial%20UAS-SEMESTER%201.pdf)
 
 ## Ketentuan Perogram
 
