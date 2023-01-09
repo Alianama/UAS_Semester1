@@ -8,6 +8,10 @@ Kelas: TI.22.B.2</br>
 
 https://youtu.be/_ttvS5ad1r4
 
+## PDF Tutorial Program
+
+![pdf](/PDF%20Tutorial%20UAS-SEMESTER%201.pdf)
+
 ## Ketentuan Perogram
 
 ![gambar 1](screnshoot/ss_ketentuan.png)</br>
